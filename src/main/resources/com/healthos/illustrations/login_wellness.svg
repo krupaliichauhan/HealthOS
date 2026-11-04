@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <defs>
+    <linearGradient id="bgCircle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF6EF"/>
+      <stop offset="100%" stop-color="#D4ECE0"/>
+    </linearGradient>
+    <linearGradient id="matGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDF3E8"/>
+      <stop offset="100%" stop-color="#A8D5BE"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9E3F7"/>
+      <stop offset="100%" stop-color="#B8A7E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Calming Aura Background Circle -->
+  <circle cx="140" cy="140" r="115" fill="url(#bgCircle)" opacity="0.8"/>
+  <circle cx="140" cy="140" r="95" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Floating Decorative Wellness Items -->
+  <!-- Cute Floating Heart -->
+  <path d="M50 85 C42 75 35 88 50 100 C65 88 58 75 50 85 Z" fill="#FF9EAA"/>
+  <!-- Floating Little Water Drop -->
+  <path d="M225 90 C225 90 215 105 215 112 C215 118 219 122 225 122 C231 122 235 118 235 112 C235 105 225 90 225 90 Z" fill="#78BDB1"/>
+  <!-- Floating Little Star Sparkles -->
+  <polygon points="75,50 77,55 82,55 78,58 80,63 75,60 70,63 72,58 68,55 73,55" fill="#FFD166"/>
+  <polygon points="205,65 207,70 212,70 208,73 210,78 205,75 200,78 202,73 198,70 203,70" fill="#FFD166"/>
+
+  <!-- Yoga Mat Base -->
+  <ellipse cx="140" cy="225" rx="90" ry="14" fill="url(#matGrad)"/>
+
+  <!-- Meditating Person Character -->
+  <!-- Legs crossed -->
+  <path d="M90 205 C90 195 115 190 140 190 C165 190 190 195 190 205 C185 218 95 218 90 205 Z" fill="#69B89E"/>
+  
+  <!-- Torso & Sweater -->
+  <path d="M122 145 C115 160 115 195 125 198 L155 198 C165 195 165 160 158 145 Z" fill="url(#bodyGrad)"/>
+  
+  <!-- Arms resting in peaceful meditation -->
+  <path d="M122 150 Q100 175 105 195" fill="none" stroke="#B8A7E0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M158 150 Q180 175 175 195" fill="none" stroke="#B8A7E0" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="105" cy="195" r="4.5" fill="#FADBC8"/>
+  <circle cx="175" cy="195" r="4.5" fill="#FADBC8"/>
+
+  <!-- Neck & Face -->
+  <rect x="135" y="132" width="10" height="15" rx="3" fill="#FADBC8"/>
+  <circle cx="140" cy="120" r="18" fill="#FADBC8"/>
+  
+  <!-- Cute Serene Closed Eyes -->
+  <path d="M133 120 Q136 123 139 120" fill="none" stroke="#4F3B32" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M141 120 Q144 123 147 120" fill="none" stroke="#4F3B32" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Rosy Cheeks -->
+  <ellipse cx="131" cy="124" rx="2.5" ry="1.5" fill="#FFAAA6"/>
+  <ellipse cx="149" cy="124" rx="2.5" ry="1.5" fill="#FFAAA6"/>
+  <!-- Gentle Smile -->
+  <path d="M137 126 Q140 128 143 126" fill="none" stroke="#4F3B32" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Aesthetic Hair Bun -->
+  <path d="M122 118 C122 102 158 102 158 118 C158 120 122 120 122 118 Z" fill="#5A3D31"/>
+  <circle cx="140" cy="98" r="10" fill="#5A3D31"/>
+  <circle cx="146" cy="100" r="4" fill="#A8D5BE"/>
+
+  <!-- Calming Leaves sprouting on sides -->
+  <path d="M85 170 C70 165 65 145 75 140 C85 145 85 160 85 170 Z" fill="#A8D5BE" opacity="0.8"/>
+  <path d="M195 170 C210 165 215 145 205 140 C195 145 195 160 195 170 Z" fill="#A8D5BE" opacity="0.8"/>
+</svg>

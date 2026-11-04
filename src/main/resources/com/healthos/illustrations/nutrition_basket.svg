@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="appleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9EAA"/>
+      <stop offset="100%" stop-color="#E85973"/>
+    </linearGradient>
+    <linearGradient id="avocadoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D5E8B3"/>
+      <stop offset="100%" stop-color="#8DB654"/>
+    </linearGradient>
+    <linearGradient id="pitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C29267"/>
+      <stop offset="100%" stop-color="#87582E"/>
+    </linearGradient>
+  </defs>
+  <!-- Cute Avocado on left -->
+  <path d="M42 36 C55 36 60 50 60 68 C60 88 48 98 34 98 C20 98 12 88 12 68 C12 50 24 36 42 36 Z"
+        fill="url(#avocadoGrad)" stroke="#5E7E36" stroke-width="2"/>
+  <circle cx="34" cy="74" r="14" fill="url(#pitGrad)"/>
+  <!-- Avocado Face -->
+  <circle cx="30" cy="52" r="2.2" fill="#34433E"/>
+  <circle cx="40" cy="52" r="2.2" fill="#34433E"/>
+  <ellipse cx="26" cy="55" rx="2" ry="1.2" fill="#FFAAA6"/>
+  <ellipse cx="44" cy="55" rx="2" ry="1.2" fill="#FFAAA6"/>
+  <path d="M33 55 Q35 58 37 55" fill="none" stroke="#34433E" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Cute Apple on right -->
+  <path d="M85 45 C78 45 74 50 72 50 C70 50 66 45 59 45 C48 45 42 55 42 70 C42 88 56 100 72 100 C88 100 102 88 102 70 C102 55 96 45 85 45 Z"
+        fill="url(#appleGrad)" stroke="#B83A52" stroke-width="2"/>
+  <!-- Stem & Leaf -->
+  <path d="M72 48 Q74 38 78 34" fill="none" stroke="#634735" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M76 36 Q84 32 88 38 Q82 42 76 36 Z" fill="#88C784"/>
+  <!-- Apple Face -->
+  <circle cx="64" cy="68" r="2.5" fill="#FFFFFF"/>
+  <circle cx="80" cy="68" r="2.5" fill="#FFFFFF"/>
+  <circle cx="64" cy="68" r="1.8" fill="#34433E"/>
+  <circle cx="80" cy="68" r="1.8" fill="#34433E"/>
+  <ellipse cx="58" cy="73" rx="2.5" ry="1.5" fill="#FA8072" opacity="0.6"/>
+  <ellipse cx="86" cy="73" rx="2.5" ry="1.5" fill="#FA8072" opacity="0.6"/>
+  <path d="M70 72 Q72 76 74 72" fill="none" stroke="#34433E" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

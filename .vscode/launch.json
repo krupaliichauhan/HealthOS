@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HealthOS (Java 21)",
+            "request": "launch",
+            "mainClass": "com.healthos.Main",
+            "projectName": "healthos-desktop",
+            "vmArgs": "--add-modules javafx.controls,javafx.fxml,javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "Launch HealthOS App (Standard)",
+            "request": "launch",
+            "mainClass": "com.healthos.Main",
+            "projectName": "healthos-desktop"
+        }
+    ]
+}

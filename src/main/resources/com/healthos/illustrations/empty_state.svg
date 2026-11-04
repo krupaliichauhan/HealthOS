@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140">
+  <defs>
+    <linearGradient id="cloudGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2EEFA"/>
+    </linearGradient>
+  </defs>
+  <!-- Cute Fluffy Cloud -->
+  <path d="M40 85 C30 85 22 75 25 64 C25 54 35 48 45 50 C50 38 65 32 78 38 C88 32 102 36 108 48 C118 50 125 58 122 70 C122 80 114 85 104 85 Z"
+        fill="url(#cloudGrad2)" stroke="#A0C6E8" stroke-width="2"/>
+  <!-- Sleeping Face -->
+  <path d="M54 62 Q59 66 64 62" fill="none" stroke="#34433E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M78 62 Q83 66 88 62" fill="none" stroke="#34433E" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="48" cy="66" rx="3" ry="1.8" fill="#FFAAA6"/>
+  <ellipse cx="94" cy="66" rx="3" ry="1.8" fill="#FFAAA6"/>
+  <path d="M68 68 Q71 71 74 68" fill="none" stroke="#34433E" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Magnifying glass examining -->
+  <circle cx="95" cy="88" r="16" fill="#FCE8DD" stroke="#E59866" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="95" cy="88" r="11" fill="#FFFFFF" opacity="0.6"/>
+  <line x1="106" y1="99" x2="120" y2="113" stroke="#87582E" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Little Sparkle -->
+  <polygon points="32,32 34,36 38,36 35,38 36,42 32,39 28,42 29,38 26,36 30,36" fill="#FCD271"/>
+</svg>

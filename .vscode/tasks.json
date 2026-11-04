@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "HealthOS: Run (JavaFX Maven)",
+            "type": "shell",
+            "command": "${workspaceFolder}\\mvnw.cmd javafx:run",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "HealthOS: Run Standalone JAR",
+            "type": "shell",
+            "command": "java -jar \"${workspaceFolder}\\target\\healthos-desktop-1.0.0.jar\"",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "HealthOS: Rebuild All",
+            "type": "shell",
+            "command": "${workspaceFolder}\\mvnw.cmd clean package -DskipTests",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "HealthOS: Run Unit Tests (JUnit 5)",
+            "type": "shell",
+            "command": "${workspaceFolder}\\mvnw.cmd test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

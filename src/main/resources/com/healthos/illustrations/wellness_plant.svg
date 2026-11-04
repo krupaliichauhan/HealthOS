@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD2B8"/>
+      <stop offset="100%" stop-color="#EAA682"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8E6CB"/>
+      <stop offset="100%" stop-color="#69B89E"/>
+    </linearGradient>
+  </defs>
+  <!-- Stem -->
+  <path d="M60 75 Q60 50 60 30" fill="none" stroke="#5DA786" stroke-width="3" stroke-linecap="round"/>
+  <!-- Left Leaf -->
+  <path d="M60 55 C45 52 35 40 38 32 C46 32 58 45 60 55 Z" fill="url(#leafGrad)" stroke="#4A8A6D" stroke-width="1.5"/>
+  <!-- Right Leaf -->
+  <path d="M60 45 C75 42 85 30 82 22 C74 22 62 35 60 45 Z" fill="url(#leafGrad)" stroke="#4A8A6D" stroke-width="1.5"/>
+  <!-- Blooming Flower Bud at Top -->
+  <circle cx="60" cy="24" r="9" fill="#FFC2D1" stroke="#E87A90" stroke-width="1.5"/>
+  <circle cx="60" cy="24" r="5" fill="#FFF2A3"/>
+  <circle cx="58" cy="23" r="1" fill="#34433E"/>
+  <circle cx="62" cy="23" r="1" fill="#34433E"/>
+  <path d="M59 25 Q60 26 61 25" fill="none" stroke="#34433E" stroke-width="0.8"/>
+  <!-- Plant Pot -->
+  <polygon points="35,70 85,70 78,106 42,106" fill="url(#potGrad)" stroke="#BA734F" stroke-width="2"/>
+  <rect x="32" y="65" width="56" height="8" rx="4" fill="#F8BC9E" stroke="#BA734F" stroke-width="2"/>
+  <!-- Cute Face on Pot -->
+  <circle cx="52" cy="85" r="2.5" fill="#34433E"/>
+  <circle cx="68" cy="85" r="2.5" fill="#34433E"/>
+  <circle cx="53" cy="84" r="0.9" fill="#FFFFFF"/>
+  <circle cx="69" cy="84" r="0.9" fill="#FFFFFF"/>
+  <ellipse cx="46" cy="89" rx="3" ry="1.5" fill="#FFAAA6" opacity="0.65"/>
+  <ellipse cx="74" cy="89" rx="3" ry="1.5" fill="#FFAAA6" opacity="0.65"/>
+  <path d="M57 88 Q60 92 63 88" fill="none" stroke="#34433E" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

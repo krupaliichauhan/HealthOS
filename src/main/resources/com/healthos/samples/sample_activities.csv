@@ -1,0 +1,6 @@
+activity_type,steps,distance_km,active_minutes,calories_burned,log_date,log_time,notes
+WALKING,7800,5.2,50,310,2026-11-01,08:30:00,Morning lakeside walk
+RUNNING,11200,8.1,65,540,2026-11-02,07:15:00,Speed intervals training
+CYCLING,12500,12.0,80,590,2026-11-03,17:45:00,Scenic afternoon cycle trail
+YOGA,5400,3.5,40,180,2026-11-04,09:00:00,Restorative evening flow
+STRENGTH,6900,4.6,45,290,2026-11-05,18:00:00,Full body dumbbell session

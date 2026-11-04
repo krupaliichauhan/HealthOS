@@ -1,0 +1,38 @@
+[
+  {
+    "heartRateBpm": 68,
+    "systolicBp": 115,
+    "diastolicBp": 75,
+    "bloodOxygenSpo2": 99.0,
+    "temperatureCelsius": 36.5,
+    "weightKg": 58.4,
+    "heightCm": 165.0,
+    "bmi": 21.45,
+    "logTimestamp": "2026-11-01T08:00:00",
+    "notes": "Smart ring morning sync"
+  },
+  {
+    "heartRateBpm": 72,
+    "systolicBp": 118,
+    "diastolicBp": 78,
+    "bloodOxygenSpo2": 98.5,
+    "temperatureCelsius": 36.6,
+    "weightKg": 58.3,
+    "heightCm": 165.0,
+    "bmi": 21.41,
+    "logTimestamp": "2026-11-02T08:15:00",
+    "notes": "Post hydration morning check"
+  },
+  {
+    "heartRateBpm": 70,
+    "systolicBp": 116,
+    "diastolicBp": 76,
+    "bloodOxygenSpo2": 99.0,
+    "temperatureCelsius": 36.5,
+    "weightKg": 58.2,
+    "heightCm": 165.0,
+    "bmi": 21.38,
+    "logTimestamp": "2026-11-03T07:45:00",
+    "notes": "Weekly vitals baseline"
+  }
+]

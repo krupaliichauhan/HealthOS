@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="sneakerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A8D5BE"/>
+      <stop offset="100%" stop-color="#69B89E"/>
+    </linearGradient>
+    <linearGradient id="soleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8ECE9"/>
+    </linearGradient>
+  </defs>
+  <!-- Speed lines & Sparkles -->
+  <path d="M12 70 L25 70" stroke="#78BDB1" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M8 80 L20 80" stroke="#78BDB1" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="98,18 100,23 105,23 101,26 103,31 98,28 93,31 95,26 91,23 96,23" fill="#FCE8DD"/>
+  <!-- Sneaker Body -->
+  <path d="M30 42 C30 42 36 32 48 32 C58 32 64 45 74 52 L95 56 C105 58 112 68 110 80 L28 80 C24 66 26 50 30 42 Z"
+        fill="url(#sneakerGrad)" stroke="#4A8F76" stroke-width="2"/>
+  <!-- Toe cap -->
+  <path d="M92 56 C103 58 110 68 110 80 L96 80 C96 68 94 62 92 56 Z" fill="#FCE8DD"/>
+  <!-- Sneaker Sole -->
+  <rect x="24" y="80" width="88" height="15" rx="7.5" fill="url(#soleGrad)" stroke="#34433E" stroke-width="2"/>
+  <line x1="38" y1="95" x2="102" y2="95" stroke="#34433E" stroke-width="1.5"/>
+  <!-- Cute Chevron / Stripe on side -->
+  <path d="M48 58 Q62 60 76 52" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Cute Face on Shoe side -->
+  <circle cx="58" cy="68" r="2.5" fill="#34433E"/>
+  <circle cx="70" cy="68" r="2.5" fill="#34433E"/>
+  <ellipse cx="53" cy="72" rx="2.5" ry="1.5" fill="#FFAAA6" opacity="0.6"/>
+  <ellipse cx="75" cy="72" rx="2.5" ry="1.5" fill="#FFAAA6" opacity="0.6"/>
+  <path d="M62 72 Q64 75 66 72" fill="none" stroke="#34433E" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Laces -->
+  <line x1="50" y1="44" x2="62" y2="40" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="54" y1="50" x2="66" y2="46" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

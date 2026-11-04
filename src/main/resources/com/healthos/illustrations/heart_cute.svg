@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9EAA"/>
+      <stop offset="50%" stop-color="#FF6B8B"/>
+      <stop offset="100%" stop-color="#FA5A7D"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#FF8E9E" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Main Heart Shape -->
+  <path d="M60 102 C30 85 10 65 10 40 C10 22 24 10 42 10 C50 10 57 14 60 20 C63 14 70 10 78 10 C96 10 110 22 110 40 C110 65 90 85 60 102 Z"
+        fill="url(#heartGrad)" filter="url(#softShadow)" stroke="#FFFFFF" stroke-width="2.5"/>
+  <!-- Highlight shine -->
+  <path d="M22 36 C22 26 30 18 40 16" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <!-- Eyes -->
+  <circle cx="45" cy="44" r="3.5" fill="#34433E"/>
+  <circle cx="75" cy="44" r="3.5" fill="#34433E"/>
+  <circle cx="46.5" cy="42.5" r="1.2" fill="#FFFFFF"/>
+  <circle cx="76.5" cy="42.5" r="1.2" fill="#FFFFFF"/>
+  <!-- Rosy Cheeks -->
+  <ellipse cx="38" cy="50" rx="4.5" ry="2.5" fill="#FF477E" opacity="0.45"/>
+  <ellipse cx="82" cy="50" rx="4.5" ry="2.5" fill="#FF477E" opacity="0.45"/>
+  <!-- Cute Happy Mouth -->
+  <path d="M54 50 Q60 56 66 50" fill="none" stroke="#34433E" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Little Pulse Line below -->
+  <path d="M42 66 L52 66 L56 61 L62 71 L66 64 L70 66 L78 66" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+</svg>
